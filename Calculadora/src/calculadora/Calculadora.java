@@ -6,7 +6,7 @@ public class Calculadora {
     
     public static void main(String[] args) throws IOException {
         
-        Operaciones calcu = new Operaciones(3,4);
+        Operaciones calcu = new Operaciones(1,1);
         
         System.out.println(String.format("Suma: %d",calcu.sumar()));
         System.out.println(String.format("Resta: %d",calcu.restar()));
