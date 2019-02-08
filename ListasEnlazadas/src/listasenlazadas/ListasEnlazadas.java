@@ -1,7 +1,5 @@
 package listasenlazadas;
 
-import javax.swing.JOptionPane;
-
 public class ListasEnlazadas {
 
     public static void main(String[] args) {
