@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class ListasEnlazadas {
 
     public static void main(String[] args) {
-        Lista l = new Lista();
+        /*Lista l = new Lista();
         int seleccion = 0;
         do {
             String opcion = JOptionPane.showInputDialog(null, "Lista simple\n 1-Insertar \n 2-Mostrar \n 6-Salir");
@@ -20,6 +20,6 @@ public class ListasEnlazadas {
             } else if(seleccion==2){
                 l.mostrar();
             }
-        } while (seleccion!=6);        
+        } while (seleccion!=6);        */
     }
 }
