@@ -1,12 +1,14 @@
 package listasenlazadas;
 
+import javax.swing.JOptionPane;
+
 public class ListasEnlazadas {
 
     public static void main(String[] args) {
-        /*Lista l = new Lista();
+        Lista l = new Lista();
         int seleccion = 0;
         do {
-            String opcion = JOptionPane.showInputDialog(null, "Lista simple\n 1-Insertar \n 2-Mostrar \n 6-Salir");
+            String opcion = JOptionPane.showInputDialog(null, "Lista simple\n 1-Insertar \n 2-Mostrar \n 3-Buscar \n 4-Eliminar \n 6-Salir");
             seleccion = Integer.parseInt(opcion);
             
             if (seleccion==1) {
@@ -17,7 +19,10 @@ public class ListasEnlazadas {
                 l.insertar(new Persona(0,cedula, nombre, apellido));
             } else if(seleccion==2){
                 l.mostrar();
+            } else if(seleccion==3){
+                String ced = JOptionPane.showInputDialog(null, "Ingrese la cédula a consultar");
+                l.buscar(ced);
             }
-        } while (seleccion!=6);        */
+        } while (seleccion!=6);        
     }
 }
