@@ -46,4 +46,25 @@ public class Lista {
             }
         }
     }
+    
+    public void buscar(String ced){
+        if (estaVacia()) {
+            JOptionPane.showMessageDialog(null, "Lista vacía");
+            return;
+        } else {
+            NodoPersona temporal;
+            temporal = inicio;
+            while (temporal!=null) {
+                if (ced == temporal.getDato().getApellido()) {
+                    JOptionPane.showMessageDialog(null, temporal.getDato().toString());
+                    break;
+                }
+
+            }
+        }
+    }
+    
+    public void eliminar(){
+        
+    }
 }
