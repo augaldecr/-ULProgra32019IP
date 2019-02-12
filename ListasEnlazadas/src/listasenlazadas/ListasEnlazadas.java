@@ -22,6 +22,9 @@ public class ListasEnlazadas {
             } else if(seleccion==3){
                 String ced = JOptionPane.showInputDialog(null, "Ingrese la cédula a consultar");
                 l.buscar(ced);
+            } else if(seleccion==4){
+                String ced = JOptionPane.showInputDialog(null, "Ingrese la cédula a eliminar");
+                l.eliminar(ced);
             }
         } while (seleccion!=6);        
     }
