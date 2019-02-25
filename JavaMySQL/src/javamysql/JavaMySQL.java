@@ -11,5 +11,7 @@ public class JavaMySQL {
 
         Connection con = conn.conectar();
         
+        FrmConsulta consulta = new FrmConsulta();
+        consulta.setVisible(true);
     }
 }
